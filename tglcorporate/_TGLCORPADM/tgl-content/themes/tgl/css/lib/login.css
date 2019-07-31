@@ -1,0 +1,32 @@
+.mrginBtm25px {
+	margin-bottom: 15px;
+}
+.login img {
+	width: 70%
+}
+.login-heading {
+	font-family: 'DINNeuzeitGrotesk-Light';
+	font-size: 22px;
+	color: #414042;
+	margin: 15px 0
+}
+ @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+.login-heading {
+	font-family: 'DINNeuzeitGrotesk-Light';
+	font-size: 22px;
+	color: #414042;
+	margin: 14px 0
+}
+}
+.underline {
+	text-decoration: underline;
+	color: #414042
+}
+.box_shadow {
+	-webkit-box-shadow: 4px 4px 5px 1px rgba(140, 140, 140, 0.75);
+	-moz-box-shadow: 4px 4px 5px 1px rgba(140, 140, 140, 0.75);
+	box-shadow: 4px 4px 5px 1px rgba(140, 140, 140, 0.75);
+}
+.form-group {
+	margin-bottom: 20px!important
+}

@@ -1,0 +1,17 @@
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /tgl/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /tgl/index.php [L]
+</IfModule>
+
+# END WordPress
+
+AddType image/svg+xml svg
+AddType image/svg+xml svgz
+
